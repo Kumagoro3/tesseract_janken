@@ -44,17 +44,21 @@ li:hover{
 }
 
 .button {
-    margin: 25px 0 60px;
-    font-size: 20px;
-    display: inline-block;
-    width: 300px;
-    height: 60px;
-    background-color:#1ad1ff;
-    color: #fafafa;
-    text-align: center;
-    text-decoration: none;
-    line-height: 60px;
-    outline: none;
+    color: #fff;
+    border-top: 4px solid #48ecc4;
+    border-right: 4px solid #0a5f4a;
+    border-bottom: 4px solid #0f745b;
+    border-left: 4px solid #8cf9de;
+    border-radius: 0;
+    background: #11a37f;
+  }
+  
+  a.button:hover {
+    color: #fff;
+    border-top: 4px solid #0f745b;
+    border-right: 4px solid #8cf9de;
+    border-bottom: 4px solid #48ecc4;
+    border-left: 4px solid #0a5f4a;
   }
 
 .title{
@@ -62,10 +66,6 @@ li:hover{
     background-color:#1acdff;
 }
 
-.title{
-    margin: 20px 0 20px; 
-    background-color:#1acdff;
-}
 
 .intro{
     margin: 20px 0 20px; 
