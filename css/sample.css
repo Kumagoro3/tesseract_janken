@@ -17,12 +17,7 @@ footer{
     border-bottom:1px solid #ccc;
     text-align: center;
 }
-p{
-    font-size:200%;
-    text-align: center;
-    border-bottom:1px solid #fff;
-    height:200px;
-}
+
 ul{
     padding: 0;
     border-top: 1px solid #000000;
@@ -37,10 +32,6 @@ li{
     background-color: #FFF;
     display:table-cell;  /* 定義 */
     cursor: pointer;
-}
-li:hover{
-    background: #0066CC;
-    color:#fff;
 }
 
 .button {
@@ -68,7 +59,8 @@ li:hover{
 
 
 .intro{
-    margin: 20px 0 20px; 
+    font-size: 30px;
+    margin: 20px 0 30px; 
     background-color:#222a2c;
     color:#fff;
 }
